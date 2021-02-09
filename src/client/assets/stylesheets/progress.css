@@ -1,0 +1,76 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {
+  background-image: url('https://via.placeholder.com/1150');
+  background-image: url('images/racing.jpg');
+}
+
+main#two-columns {
+    margin: 50px 0;
+    display: flex;
+}
+
+main#two-columns section {
+    max-width: 50vw;
+}
+
+section#accelerate button {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 180%;
+    background-color: green;
+    border-color: rgb(14, 166, 6);
+    cursor: pointer;
+}
+
+#big-numbers {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.leaderBoard{
+    display: flex;
+}
+.progress-racetracks{
+    display: flex;
+}
+.racer-name {
+    position: absolute;
+    bottom: -5vh;
+    font-size: 12px;
+    text-align: center;
+}
+
+.racetrack {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    min-height: 30vh;
+    border: dashed 2px gray;
+}
+
+.race-car {
+    background-image: url('images/motor.png');
+    position: absolute;
+    width: 30px;
+    height: 50px;   
+    background-size: cover;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+}
